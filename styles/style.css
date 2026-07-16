@@ -3,7 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
-
+body{
+    font-family: sans-serif;
+}
 header{
     max-width:1200px;
     margin: auto;
@@ -94,3 +96,9 @@ url(./banner.jpg);
     margin-top: 300px;
     margin-bottom: 50px;
 }
+
+.speakers{
+    
+}
+
+
