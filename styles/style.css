@@ -165,17 +165,25 @@ gap:50px;
 .price-container {
     display: flex;
     justify-content: center;
+    align-items: stretch;
     gap: 25px;
-    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
 }
+
 .price-card {
-    width: 320px;
+    flex: 1;
+    max-width: 320px;
     background: white;
     border-radius: 12px;
     padding: 35px;
     box-shadow: 0 10px 30px rgba(0,0,0,.08);
     transition: .3s;
+
+    display: flex;
+    flex-direction: column;
 }
+
 .price-card h1{
     font-size: 40px;
     margin: 15px 0;
