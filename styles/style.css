@@ -97,10 +97,10 @@ url(./banner.jpg);
     margin-bottom: 50px;
 }
 
-.speakers{
+.Speakers-container{
     padding: 80px 60px;
 }
-.Speakerscontainer h2{
+.Speakers-container h2{
 text-align: center;
 font-size:66px ;
 font-weight: bold;
