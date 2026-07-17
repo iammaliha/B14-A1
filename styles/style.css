@@ -132,3 +132,74 @@ gap:50px;
     color:#666;
     margin-top:8px;
 }
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heading h2 {
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+.heading p {
+    color: #777;
+    margin-top: 10px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.price-card {
+    width: 320px;
+    background: white;
+    border-radius: 12px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: .3s;
+}
+.price-card h1{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.list{
+     color: gray;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.price-card button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #2563eb;
+    background: white;
+    color: #2563eb;
+    font-weight: bold;
+    cursor: pointer;
+}
+.featured {
+    background: #0f172a;
+    color: white;
+    transform: scale(1.05);
+}
+.price{
+  
+}
