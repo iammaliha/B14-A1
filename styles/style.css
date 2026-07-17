@@ -241,11 +241,11 @@ text-transform: none;
 
 
 }
-.price-card-new-btn{
+.price-card-new button{
      background:#2563eb;
     color:#fff;
     border:none;
-    
+    margin-top: 55px;
 
     width: 100%;
     padding: 14px;
